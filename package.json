@@ -16,14 +16,6 @@
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
-  "activationHooks": [
-    "language-typst:grammar-used"
-  ],
-  "activationCommands": {
-    "atom-workspace": [
-      "typst-tools:install-typst"
-    ]
-  },
   "providedServices": {
     "typst-tools": {
       "versions": {
