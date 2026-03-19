@@ -1,7 +1,7 @@
 {
   "name": "typst-tools",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Compile Typst documents with build tools, watch mode, and PDF viewer integration",
   "keywords": [
     "typst",
@@ -50,9 +50,18 @@
       "type": "string",
       "default": "pdf",
       "enum": [
-        { "value": "pdf", "description": "PDF - Portable Document Format" },
-        { "value": "png", "description": "PNG - Raster image" },
-        { "value": "svg", "description": "SVG - Scalable Vector Graphics" }
+        {
+          "value": "pdf",
+          "description": "PDF - Portable Document Format"
+        },
+        {
+          "value": "png",
+          "description": "PNG - Raster image"
+        },
+        {
+          "value": "svg",
+          "description": "SVG - Scalable Vector Graphics"
+        }
       ]
     },
     "fontPaths": {
@@ -61,7 +70,9 @@
       "description": "Additional directories to search for fonts.",
       "type": "array",
       "default": [],
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
     "additionalArgs": {
       "order": 4,
@@ -69,7 +80,9 @@
       "description": "Additional command-line arguments passed to typst compile/watch.",
       "type": "array",
       "default": [],
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
     "debug": {
       "order": 99,
