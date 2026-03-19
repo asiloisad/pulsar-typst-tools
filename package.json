@@ -1,7 +1,7 @@
 {
   "name": "typst-tools",
   "main": "./lib/main",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compile Typst documents with build tools, watch mode, and PDF viewer integration",
   "keywords": [
     "typst",
