@@ -57,8 +57,8 @@ Commands available in `atom-text-editor[data-grammar~="typst"]`:
 
 The status bar item shows the current build state with a live timer:
 
-- **Typ** — idle, click to compile
-- **Typ\*** — compile-on-save is enabled
+- **Typ**: idle, click to compile
+- **Typ\***: compile-on-save is enabled
 
 **Mouse interactions:**
 
@@ -144,11 +144,11 @@ consumeTypstTools(service) {
 
 ### Status values
 
-- `'idle'` — No build in progress
-- `'building'` — Build is currently running
-- `'success'` — Last build completed successfully
-- `'error'` — Last build failed
+- `'idle'`: No build in progress
+- `'building'`: Build is currently running
+- `'success'`: Last build completed successfully
+- `'error'`: Last build failed
 
 ## Contributing
 
-Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback's welcome!
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub. Any feedback is welcome!
