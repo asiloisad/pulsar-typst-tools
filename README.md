@@ -45,12 +45,12 @@ Commands available in `atom-workspace`:
 
 Commands available in `atom-text-editor[data-grammar~="typst"]`:
 
-- `typst-tools:compile`: (`F5`) compile the current Typst document,
-- `typst-tools:watch`: (`Alt+F5`) toggle compile-on-save mode for the current file,
-- `typst-tools:interrupt`: (`Ctrl+F5`) stop the current build process for the active file,
-- `typst-tools:interrupt-all`: (`Ctrl+F6`) stop all running build processes,
-- `typst-tools:clean-linter`: (`F6`) clear all linter messages,
-- `typst-tools:open-pdf`: (`F7`) open the generated PDF in Pulsar,
+- `typst-tools:compile`: <kbd>F5</kbd> compile the current Typst document,
+- `typst-tools:watch`: <kbd>Alt+F5</kbd> toggle compile-on-save mode for the current file,
+- `typst-tools:interrupt`: <kbd>Ctrl+F5</kbd> stop the current build process for the active file,
+- `typst-tools:interrupt-all`: <kbd>Ctrl+F6</kbd> stop all running build processes,
+- `typst-tools:clean-linter`: <kbd>F6</kbd> clear all linter messages,
+- `typst-tools:open-pdf`: <kbd>F7</kbd> open the generated PDF in Pulsar,
 - `typst-tools:list-fonts`: list all fonts available to Typst.
 
 ## Status bar
