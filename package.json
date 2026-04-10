@@ -1,7 +1,7 @@
 {
   "name": "typst-tools",
   "main": "./lib/main",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Compile Typst documents with build tools, compile-on-save, and PDF viewer integration",
   "keywords": [
     "typst",
